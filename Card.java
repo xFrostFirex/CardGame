@@ -24,9 +24,6 @@ public class Card {
         this.Suite = suite;
     }
 
-
-
-
     //sets this.Value
     public void setValue(String value){
         this.Value = value;
