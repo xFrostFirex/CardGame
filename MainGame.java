@@ -21,7 +21,7 @@ public class MainGame {
             Deck deck = new Deck();
             Hand[] hand = new Hand[5];
             for (int i = 0; i < 5; i++) {
-                hand[i] = deck.DrawCard();
+                extracted(deck, hand, i);
             }
             int RoyalFlush = 0, StraightFlush = 0, Fourofakind = 0, Fullhouse = 0, Threeofakind = 0, pair = 0,
                     twopair = 0;
@@ -574,5 +574,9 @@ public class MainGame {
         System.out.println("Two Pair: " + twopair / iterations * 100 + "%");
         System.out.println("Pair: " + pair / iterations * 100 + "%");
 
+    }
+
+    private static void extracted(Deck deck, Hand[] hand, int i) {
+        hand[i] = deck.DrawCard();
     }
 }
