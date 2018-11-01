@@ -566,13 +566,13 @@ public class MainGame {
             }
             count++;
         }
-        System.out.println("Royal Flush:" + RoyalFlush / iterations * 100 + "%");
-        System.out.println("Straight Flush:" + StraightFlush / iterations * 100 + "%");
-        System.out.println("Four of a Kind:" + Fourofakind / iterations * 100 + "%");
-        System.out.println("Full House:" + FullHouse / iterations * 100 + "%");
-        System.out.println("Three of a Kind:" + Threeofakind / iterations * 100 + "%");
-        System.out.println("Two Pair:" + twopair / iterations * 100 + "%");
-        System.out.println("Pair:" + pair / iterations * 100 + "%");
+        System.out.println("Royal Flush: " + RoyalFlush / iterations * 100 + "%");
+        System.out.println("Straight Flush: " + StraightFlush / iterations * 100 + "%");
+        System.out.println("Four of a Kind: " + Fourofakind / iterations * 100 + "%");
+        System.out.println("Full House: " + FullHouse / iterations * 100 + "%");
+        System.out.println("Three of a Kind: " + Threeofakind / iterations * 100 + "%");
+        System.out.println("Two Pair: " + twopair / iterations * 100 + "%");
+        System.out.println("Pair: " + pair / iterations * 100 + "%");
 
     }
 }
